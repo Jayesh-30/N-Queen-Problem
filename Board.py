@@ -1,5 +1,5 @@
 class Board: 
-  def _init_(self,n):
+  def __init__(self,n):
     self.n = n;
     self.noqueen = 0
     self.queen = 1
