@@ -1,7 +1,7 @@
 import random
 
 class State: 
-  def _init_(self,n):
+  def __init__(self,n):
     self.n = n
     self.value = 0
   # Generate Empty State
